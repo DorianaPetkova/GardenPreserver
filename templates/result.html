@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Information</title>
+</head>
+<body>
+    <h1>Flower Information</h1>
+    {% if flower_name %}
+    <p>Name: {{ flower_name }}</p>
+    <p>Description: {{ flower_description }}</p>
+    {% endif %}
+    {% if error_message %}
+    <p>{{ error_message }}</p>
+    {% endif %}
+    <a href="/">Go back</a>
+</body>
+</html>
