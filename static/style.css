@@ -1,0 +1,87 @@
+
+  @media (max-width: 991px) {
+    .container {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+
+  
+  @media (max-width: 991px) {
+    .layout {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .image-column {
+      width: 100%;
+    }
+  }
+ 
+  @media (max-width: 991px) {
+    .profile-image {
+      margin-top: 40px;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .info-column {
+      width: 100%;
+    }
+  }
+  .info {
+    display: flex;
+    margin-top: 6px;
+    flex-direction: column;
+    font-size: 20px;
+    color: #000;
+    font-weight: 400;
+    justify-content: space-between; /* Разпределя всяка колонка на контейнера равномерно */
+    align-items: flex-start; /* Подравнява съдържанието към началото (ляво) на контейнера */
+}
+  @media (max-width: 991px) {
+    .info {
+      margin-top: 40px;
+    }
+  }
+
+  .container {
+    margin-top: 43px;
+    width: 100%;
+    max-width: 800px; /* Increase the max-width for better spacing */
+    display: flex; /* Add flex display to the container */
+    justify-content: center; /* Center align the content horizontally */
+}
+
+.layout {
+    display: flex;
+    gap: 20px;
+    width: 100%; /* Make sure the layout occupies full width */
+}
+
+.image-column {
+    flex: 1; /* Use flex-grow to make the column grow to fill available space */
+}
+
+.profile-image {
+    border: 1px solid rgba(135, 96, 96, 1);
+    background-color: #d9c3c3;
+    max-width: 100%; /* Adjust the image width to fit within the container */
+    max-height: 500px; /* Limit the image height */
+}
+
+.info-column {
+    flex: 1; /* Use flex-grow to make the column grow to fill available space */
+}
+
+.label {
+    font-family: Inder, sans-serif;
+}
+
+.label-description {
+    font-family: Inder, sans-serif;
+    margin-top: 32px;
+}

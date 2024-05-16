@@ -4,16 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower Information</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='scripts/stages.js') }}"></script>
 </head>
 <body>
-    <h1>Flower Information</h1>
-    {% if flower_name %}
-    <p>Name: {{ flower_name }}</p>
-    <p>Description: {{ flower_description }}</p>
-    {% endif %}
+    <h1 class="title">Flower Information</h1>
+    <section class="container">
+        <div class="layout">
+            <div class="image-column">
+                <img src="{{ url_for('static', filename=image_path) }}" alt="{{ flower_name }}" class="profile-image">
+            </div>
+            <div class="info-column">
+                <div class="info">
+                    {% if flower_name %}
+                    <p class="label">Name: {{ flower_name }}</p>
+                    <p class="label-description">Description: {{ flower_description }}</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </section>
     {% if error_message %}
     <p>{{ error_message }}</p>
     {% endif %}
+    <button id="openModal">Open Modal</button>
+
+    <!-- Modal popup -->
+    <div id="myModal" class="modal" style="display:none;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Modal content here...</p>
+            <!-- Add the close button -->
+            <button id="closeModal">Close</button>
+        </div>
+    </div>
+
     <a href="/">Go back</a>
 </body>
 </html>
