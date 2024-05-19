@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower Information</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-  
-    <form method="post">
-        <label for="flower_name">Enter the name of a flower:</label><br>
-        <input type="text" id="flower_name" name="flower_name"><br>
-        <button type="submit">Submit</button>
+    <div class="form-container">
+        <h1 class="form-title">Flower Information</h1>
+        <form method="post">
+            <label for="flower_name">Enter the name of a flower:</label><br>
+            <input type="text" id="flower_name" name="flower_name" required><br>
+            <button type="submit">Submit</button>
+        </form>
+       
+    </div>
+    <form action="{{ url_for('questions') }}" method="get">
+        <button type="submit">Go to Questions</button>
     </form>
 </body>
 </html>

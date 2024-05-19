@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower Information</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
-    <script src="{{ url_for('static', filename='scripts/stages.js') }}"></script>
 </head>
 <body>
     <h1 class="title">Flower Information</h1>
@@ -27,18 +26,29 @@
     {% if error_message %}
     <p>{{ error_message }}</p>
     {% endif %}
-    <button id="openModal">Open Modal</button>
+    <a href="/">Go back</a>
 
-    <!-- Modal popup -->
-    <div id="myModal" class="modal" style="display:none;">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <p>Modal content here...</p>
-            <!-- Add the close button -->
-            <button id="closeModal">Close</button>
+    <!-- Popup Trigger -->
+    <button id="popup-trigger" class="popup-trigger">Show Phases</button>
+
+    <!-- Popup -->
+    <div id="popup" class="popup-overlay">
+        <div class="popup-content">
+            <h2>Phases for {{ flower_name }}</h2>
+            <p>Phase 1: <img src="{{ url_for('static', filename= image_phase) }}" alt="Phase 1"></p>
+           
+            <button id="close-popup" class="close-popup">Close</button>
         </div>
     </div>
 
-    <a href="/">Go back</a>
+    <script>
+        document.getElementById('popup-trigger').addEventListener('click', function() {
+            document.getElementById('popup').style.display = 'flex';
+        });
+
+        document.getElementById('close-popup').addEventListener('click', function() {
+            document.getElementById('popup').style.display = 'none';
+        });
+    </script>
 </body>
 </html>
