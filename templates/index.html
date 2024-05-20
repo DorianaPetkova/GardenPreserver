@@ -3,21 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flower Information</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>GardenPreserver</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/index.css') }}">
 </head>
 <body>
-    <div class="form-container">
-        <h1 class="form-title">Flower Information</h1>
-        <form method="post">
-            <label for="flower_name">Enter the name of a flower:</label><br>
-            <input type="text" id="flower_name" name="flower_name" required><br>
-            <button type="submit">Submit</button>
-        </form>
-       
+    <header>
+        <div class="logo-container">
+            <img src="https://via.placeholder.com/40" alt="Logo">
+            <span>GardenPreserver</span>
+        </div>
+        <nav>
+            <a href="#usage">Usage</a>
+            <a href="#advantages">Advantages</a>
+            <a href="#about">About Us</a>
+            <a href="#search">Search</a>
+            <a href="{{ url_for('questions') }}">Questions</a>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <section id="usage">
+            <h1 class="section-title">Usage</h1>
+            <div class="section-content">
+                <p></p>
+               
+            </div>
+        </section>
+
+        <section id="advantages">
+            <h1 class="section-title">Advantages</h1>
+            <div class="section-content">
+                <p>Learn about the benefits of using GardenPreserver, from saving time to ensuring your plants thrive.</p>
+               
+            </div>
+        </section>
+
+        <section id="about">
+            <h1 class="section-title">About Us</h1>
+            <div class="section-content">
+                <p>GardenPreserver is dedicated to helping gardeners of all levels maintain beautiful and healthy gardens.</p>
+               
+            </div>
+        </section>
+
+        <section id="search">
+            <h1 class="section-title">Flower Information</h1>
+            <div class="form-container">
+                <h2 class="form-title">Search for a Flower</h2>
+                <form method="post">
+                    <label for="flower_name">Enter the name of a flower:</label>
+                    <input type="text" id="flower_name" name="flower_name" required>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
     </div>
-    <form action="{{ url_for('questions') }}" method="get">
-        <button type="submit">Go to Questions</button>
-    </form>
+
+    <footer>
+        &copy; 2024 GardenPreserver. All rights reserved.
+    </footer>
 </body>
 </html>
