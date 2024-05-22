@@ -23,10 +23,11 @@
             </div>
         </div>
     </section>
+   
     {% if error_message %}
     <p>{{ error_message }}</p>
     {% endif %}
-    <a href="/">Go back</a>
+    <a href="/" class="back-link">Go back</a>
 
     <!-- Popup Trigger -->
     <button id="popup-trigger" class="popup-trigger">Show Phases</button>
@@ -36,7 +37,6 @@
         <div class="popup-content">
             <h2>Phases for {{ flower_name }}</h2>
             <p>Phase 1: <img src="{{ url_for('static', filename= image_phase) }}" alt="Phase 1"></p>
-           
             <button id="close-popup" class="close-popup">Close</button>
         </div>
     </div>

@@ -9,13 +9,13 @@
 <body>
     <header>
         <div class="logo-container">
-            <img src="https://via.placeholder.com/40" alt="Logo">
+            <img src="{{ url_for('static', filename='pictures/logo.png') }}" alt="Logo">
             <span>GardenPreserver</span>
         </div>
         <nav>
             <a href="#usage">Usage</a>
+            <a href="#motivation">Motivation</a>
             <a href="#advantages">Advantages</a>
-            <a href="#about">About Us</a>
             <a href="#search">Search</a>
             <a href="{{ url_for('questions') }}">Questions</a>
         </nav>
@@ -25,24 +25,25 @@
         <section id="usage">
             <h1 class="section-title">Usage</h1>
             <div class="section-content">
-                <p></p>
-               
+                <img src="https://minedusci-my.sharepoint.com/personal/dp98542983_edu_mon_bg/Documents/%D0%A4%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B5%20%D0%B7%D0%B0%20%D1%87%D0%B0%D1%82%D0%B0%20%D0%BD%D0%B0%20Microsoft%20Teams/Gardening-cuate.png" alt="Usage" class="image">
+                <p>GardenPreserver is a website designed for plant lovers with a penchant for taking care of their gardens. Whether you have a green thumb or are just starting out, we provide the resources and tools you need to keep your plants healthy and thriving.</p>
             </div>
         </section>
 
         <section id="advantages">
             <h1 class="section-title">Advantages</h1>
-            <div class="section-content">
-                <p>Learn about the benefits of using GardenPreserver, from saving time to ensuring your plants thrive.</p>
-               
+            <div class="section-content advantages">
+                <div class="advantage-item">Easy Searching Function</div>
+                <div class="advantage-item">AI Model for Flower-Related Questions</div>
+                <div class="advantage-item">Comprehensive Database</div>
             </div>
         </section>
 
-        <section id="about">
-            <h1 class="section-title">About Us</h1>
+        <section id="motivation">
+            <h1 class="section-title">Motivation</h1>
             <div class="section-content">
-                <p>GardenPreserver is dedicated to helping gardeners of all levels maintain beautiful and healthy gardens.</p>
-               
+                <img src="https://minedusci-my.sharepoint.com/personal/dp98542983_edu_mon_bg/Documents/%D0%A4%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B5%20%D0%B7%D0%B0%20%D1%87%D0%B0%D1%82%D0%B0%20%D0%BD%D0%B0%20Microsoft%20Teams/People%20taking%20care%20of%20plants-amico.png" alt="Motivation" class="image">
+                <p>We decided to create GardenPreserver because we wanted to take care of flowers properly. Both have experience with plants dying due to improper care so we thought others like us will benefit from an app that tells you exactly what to do.</p>
             </div>
         </section>
 
