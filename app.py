@@ -1,6 +1,7 @@
 import mysql.connector
 import openai
 import os
+import time
 from flask import Flask, render_template, request
 
 db_config = {
@@ -12,20 +13,34 @@ db_config = {
 
 app = Flask(__name__)
 
-# Make sure to set your API key in an environment variable
-openai.api_key = 'sk-proj-kHlgRcOA6Inqf8fSl58iT3BlbkFJAMgcCXru9iSFwvqDnzkG'
-
+# Set your OpenAI API key
+openai.api_key = os.getenv('OPENAI_API_KEY') or 'sk-proj-kHlgRcOA6Inqf8fSl58iT3BlbkFJAMgcCXru9iSFwvqDnzkG'
 
 
 def get_chatbot_response(question):
-    response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {"role": "system", "content": "You are an expert in flowers."},
-            {"role": "user", "content": question}
-        ]
-    )
-    return response.choices[0].message['content'].strip()
+    max_retries = 5
+    retry_delay = 1  # Start with a 1 second delay
+
+    for attempt in range(max_retries):
+        try:
+            response = openai.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": "You are an expert in flowers."},
+                    {"role": "user", "content": question}
+                ]
+            )
+            return response.choices[0].message['content'].strip()
+        except openai.error.RateLimitError:
+            if attempt < max_retries - 1:
+                print(f"Rate limit exceeded. Retrying in {retry_delay} seconds...")
+                time.sleep(retry_delay)
+                retry_delay *= 2  # Exponential backoff
+            else:
+                return "Rate limit exceeded. Please try again later."
+        except openai.error.OpenAIError as e:
+            return f"An error occurred: {str(e)}"
+
 
 def get_flower_info(name):
     mydb = mysql.connector.connect(**db_config)
