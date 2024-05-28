@@ -53,7 +53,7 @@ header nav a:hover {
 }
 
 .container {
-  padding: 100px 20px 20px 20px;
+  padding-top: 100px;
 }
 
 section {
@@ -107,7 +107,8 @@ section {
 }
 
 .form-container {
-  background-color: #f9f9f9;
+  background-color: #f9f9f9
+  ;
   padding: 20px;
   border-radius: 8px;
   max-width: 500px;
@@ -121,17 +122,34 @@ section {
   margin-bottom: 20px;
 }
 
-.form-container label, .form-container input, .form-container button {
+.form-container label,
+.form-container input,
+.form-container button {
   width: 100%;
   margin-bottom: 10px;
 }
 
-.form-container input, .form-container button {
+.form-container input,
+.form-container button {
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
   font-size: 1em;
 }
+.container,
+section,
+.advantage-item,
+.form-container {
+  background-color: white; /* Add white background */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  margin-bottom: 20px; /* Add margin bottom for spacing */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  max-width: 800px; /* Limit width to center content */
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto; /* Center horizontally */
+}
+
 
 .form-container button {
   background: #FF5722;

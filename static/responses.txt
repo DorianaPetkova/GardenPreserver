@@ -1,2 +1,299 @@
-tulips: Tulips come in a wide variety of colors including red, yellow, pink, purple, orange, and white. Some tulips are even multicolored, featuring streaks, stripes, or edges in contrasting colors. Popular varieties include the Darwin Hybrid, which is known for its large, bright flowers, and the Triumph tulip, prized for its sturdy stems and vibrant hues. Tulips prefer full or afternoon sun, so choose a location that gets at least six hours of direct sunlight per day. The soil must be well-drained and loose; heavy or wet soils can cause the bulbs to rot. Ideally, the soil should be slightly acidic to neutral (pH 6.0 to 7.0). To improve drainage, you can mix in some sand or organic matter such as compost. Tulips require regular watering, especially during their growing season. After planting, water the bulbs thoroughly to settle the soil. During the growing period, ensure the soil remains moist but not waterlogged. Reduce watering once the foliage starts to die back.
-roses: Give them what they need– Generally speaking, roses require at least 6 hours of full sun a day (preferably in the morning), a well-drained and nutrient-rich soil, and moderate amounts of water. Water should only be applied directly to the root zone, not to the leaf surface.
+tulip
+overall: Tulips come in a wide variety of colors including red, yellow, pink, purple, orange, and white. Some tulips are even multicolored, featuring streaks, stripes, or edges in contrasting colors. Popular varieties include the Darwin Hybrid, which is known for its large, bright flowers, and the Triumph tulip, prized for its sturdy stems and vibrant hues.
+water: Tulips require regular watering, especially during their growing season. After planting, water the bulbs thoroughly to settle the soil. During the growing period, ensure the soil remains moist but not waterlogged. Reduce watering once the foliage starts to die back.
+soil: The soil must be well-drained and loose; heavy or wet soils can cause the bulbs to rot. Ideally, the soil should be slightly acidic to neutral (pH 6.0 to 7.0). To improve drainage, you can mix in some sand or organic matter such as compost.
+light: Tulips prefer full or afternoon sun, so choose a location that gets at least six hours of direct sunlight per day.
+
+rose
+overall: Roses are one of the most popular and beautiful flowering shrubs grown, but starting a rose garden may seem daunting to new gardeners. However, growing roses for beginners doesn’t have to be a stressful endeavor.
+water: Roses need at least an inch of water weekly during their growing season, which is roughly spring through fall. It's best to water at the base of the plant to avoid wetting the foliage, which can lead to disease.
+soil: Roses grow best in rich, loamy soil that drains well. They prefer soil with a pH between 6.5 and 7.0. Adding organic matter such as compost can help improve soil structure and fertility.
+light: Roses thrive in full sun, requiring at least 6 hours of direct sunlight per day. Morning sun is particularly beneficial as it helps dry the leaves, reducing the risk of diseases.
+
+alstroemeria
+overall: Alstroemeria plants prefer regular moisture of one inch of water per week, rich, well-draining soil, and full sun, although they will need shade from the sweltering afternoon sun.
+water: Alstroemeria requires regular moisture, about one inch of water per week.
+soil: They prefer rich, well-draining soil.
+light: Full sun, but need shade from the afternoon sun.
+
+aster
+overall: Aster amellus are well suited to a garden border where they can receive plenty of sun. Make sure the location has well-drained soil and consistent moisture. Avoid planting in heavy clay soils.
+water: Consistent moisture is required.
+soil: Well-drained soil; avoid heavy clay soils.
+light: Plenty of sun.
+
+azalea
+overall: Keep your plant well-watered all season. If it needs pruning, cut back any excess growth midsummer. Keep a regular eye out for pests – azaleas can be prone to pesky mealybugs and whiteflies. Bring your azalea back indoors before the first frost of autumn – checking again for pests before you do so.
+water: Well-watered all season.
+soil: Not specified, but keep soil conditions optimal for pest control.
+light: Not specified; typically prefer partial shade.
+
+Begonia
+overall: Begonias need a moist soil that is free draining. Soggy or waterlogged soil is particularly troublesome for begonias with tubers or rhizomes underground that will quickly rot if they are too wet.
+water: Keep the soil moist but not waterlogged.
+soil: Moist, free-draining soil.
+light: Not specified; generally do well in bright indirect light.
+
+buttercup
+overall: Plant outdoors in the fall in warmer climates and early spring in colder regions. Choose a site with full sun and well-draining soil. Place the bulbs in the soil with the end that looks like claws facing down, and cover them with 1 to 2 inches of soil. Water only when the soil is dry.
+water: Water only when the soil is dry.
+soil: Well-draining soil.
+light: Full sun.
+
+calla lily
+overall: Provide consistent moisture during the growing season, and do not allow the soil to dry out. Feed with a balanced liquid fertilizer every two weeks until the flowers have faded. Remove the flower stems after the blooms have faded.
+water: Consistent moisture; do not allow the soil to dry out.
+soil: Not specified; typically well-draining soil.
+light: Not specified; generally prefer partial shade.
+
+camellia
+overall: Camellia care is pretty simple; plant in a shade to part sun area (morning sun, afternoon shade) with rich soil. As the plants mature and the canopy provides shade to roots, they can take more sun. Camellias like ample moisture and well-drained soil.
+water: Ample moisture.
+soil: Well-drained, rich soil.
+light: Shade to part sun (morning sun, afternoon shade).
+
+carnation
+overall: Carnations grow well in most soil types, but they need soil that is well-draining. To get the best blooms, a soil that is moist, humus-rich, and slightly alkaline is best. Enrich the soil with compost or manure and a handful of blood and bone or complete fertilizer. Avoid heavy soils and water logging, especially in winter.
+water: Keep the soil moist.
+soil: Well-draining, humus-rich, and slightly alkaline soil.
+light: Not specified; generally full sun to partial shade.
+
+clematis
+overall: Clematis are hungry, thirsty plants. Water regularly in dry weather and feed with a high potash fertilizer, such as a tomato feed, just before they start to bloom. This is particularly important when growing clematis in pots. The feed should encourage a healthy crop of flowers.
+water: Water regularly in dry weather.
+soil: Not specified; generally well-draining soil.
+light: Not specified; generally full sun to partial shade.
+
+coneflower
+overall: Keep pots in partial shade for 2 to 3 days, then place in full morning sun and partial afternoon shade. Always water deeply at the soil level, and the soil should be dry to the touch. Water on leaves can cause fungal disease. Fertilize every couple of weeks with a water-soluble 10-10-10 product.
+water: Water deeply at the soil level when dry to the touch.
+soil: Not specified; generally well-draining soil.
+light: Full morning sun, partial afternoon shade.
+
+crocus
+overall: Crocus require soil that drains well. They do best when planted in an area that gets at least 4 hours of full sun per day. Plant Crocus bulbs with the pointed end facing up 2-3” deep. Space Crocus bulbs 2-3” apart when planting.
+water: Not specified; generally moderate watering.
+soil: Well-draining soil.
+light: At least 4 hours of full sun per day.
+
+dahlia
+overall: Dahlias need a sheltered spot, with as much sun as possible – a south or west facing border is ideal. Dahlias are not fussy when it comes to soil. For best results, grow in any fertile, moist but well-drained soil. Enrich the soil with some organic matter, such as well-rotted manure.
+water: Moist but well-drained soil.
+soil: Fertile, moist but well-drained soil.
+light: As much sun as possible.
+
+daisy
+overall: Experts recommend giving daisies 1 to 2 inches of water at the base of the plant each week during the growing season, and switching to every other week during the winter. If they look wilted—that's when you need to water them.
+water: 1 to 2 inches of water per week during growing season; every other week during winter.
+soil: Not specified; generally well-draining soil.
+light: Not specified; generally full sun.
+
+daffodil
+overall: Daffodils need lots of water while they are growing. Water immediately after planting and keep them moist until the rains come. Continue watering for three weeks or so after blooming time; then stop watering. The bulbs make their next year's bloom after flowering.
+water: Lots of water while growing; water immediately after planting.
+soil: Not specified; generally well-draining soil.
+light: Not specified; generally full sun to partial shade.
+
+delphinium
+overall: Delphiniums need consistent moisture, especially during the growing season. However, they don't like to be waterlogged, so make sure the soil drains well.
+water: Consistent moisture, especially during the growing season.
+soil: Well-draining soil.
+light: Not specified; generally full sun to partial shade.
+
+dusty Miller
+overall: Dusty Miller is usually grown as an annual for its silvery woolly leaves to provide contrast in the garden or a container. It prefers light, well-drained soil in sun or shade and is drought tolerant. Remove the blooms to help promote foliage growth.
+water: Drought tolerant; water as needed.
+soil: Light, well-drained soil.
+light: Sun or shade.
+
+edelweiss
+overall: To support edelweiss's health and enhance its blooming, use balanced nutrition fertilizers annually in spring. During growth seasons, high-phosphorus fertilizers encourage better flowering. Apply sparingly, as edelweiss prefers lean, well-draining soil. Moreover, it demands cool temperatures; excessive warmth or humidity can lead to its decline.
+water: Not specified; generally moderate watering.
+soil: Lean, well-draining soil.
+light: Not specified; generally full sun to partial shade.
+
+epiphyllum oxypetalum
+overall: Give this plant a well-drained average succulent/cactus soil mix in partial shade or bright, indirect light. Soak the soil completely when watering and water frequently, letting the top of the soil dry out between watering.
+water: Soak the soil completely when watering and water frequently.
+soil: Well-drained average succulent/cactus soil mix.
+light: Partial shade or bright, indirect light.
+
+forsythia
+overall: Once established, forsythia needs little care apart from pruning once flowering has finished. After pruning, mulch with well-rotted organic matter to keep the soil around the roots in good condition. An application of a general slow-release fertilizer at the same time will boost growth but is not essential.
+water: Little care needed once established.
+soil: Well-rotted organic matter for mulch.
+light: Not specified; generally full sun to partial shade.
+
+forget me not
+overall: Forget-Me-Nots grown in containers should be watered frequently in warm weather to ensure they do not dry out. To stop Forget-Me-Nots from spreading, pull them up as soon as they have finished flowering. Collect seeds for re-sowing by gently pulling up a dying plant and shaking the head of flowers into an envelope.
+water: Water frequently in warm weather.
+soil: Not specified; generally moist, well-draining soil.
+light: Not specified; generally full sun to partial shade.
+
+franklinia
+overall: The Franklinia needs full to part sun with full sun leading to deeper, richer fall foliage. Maintaining the tree’s moisture is important if the soil allows for good drainage. It will not tolerate standing water but does not tolerate dry soil either and will need regular watering during drought conditions.
+water: Regular watering during drought conditions.
+soil: Good drainage; does not tolerate standing water or dry soil.
+light: Full to part sun.
+
+freesia
+overall: In warm climates, fall is the ideal time to plant freesias. They will grow foliage over the winter and bloom early in spring. Water your freesias regularly, keeping the soil moist but not overly saturated to avoid root rot. Fertilizing should commence when shoots appear. In cooler climates, harvest the corms after the foliage dies back in the summer.
+water: Water regularly, keeping the soil moist but not overly saturated.
+soil: Not specified; generally well-draining soil.
+light: Not specified; generally full sun to partial shade.
+
+frangipani
+overall: Growing frangipani requires patience, but you can help your plant achieve its optimal growth rate by ensuring it receives ample sunlight, watering it regularly during the dry months, and letting the soil dry between each watering. You can also use a balanced, slow-release fertilizer during its growing season.
+water: Water regularly during dry months; let the soil dry between watering.
+soil: Not specified; generally well-draining soil.
+light: Ample sunlight.
+
+gardenia
+overall: Water using rainwater or filtered water and keep the compost moist, so it's neither too wet nor too dry. Feed every 1-2 weeks during spring and summer with a diluted liquid feed that's high in nitrogen. During autumn and winter, feed once a month with a balanced liquid fertilizer.
+water: Keep the compost moist, not too wet or too dry.
+soil: Not specified; generally well-draining soil.
+light: Not specified; generally bright indirect light.
+
+gladiolus
+overall: Gladiolus plants need well-draining, slightly acidic to neutral soil in a sunny to a partially shaded spot. Gladiolus plants thrive in full sun but will grow in part shade, although their colors won't be as bright.
+water: Not specified; generally moderate watering.
+soil: Well-draining, slightly acidic to neutral soil.
+light: Full sun to part shade.
+
+hibiscus
+overall: Hibiscus needs both moist and well-drained soil. If Hibiscus dries out too much, it will drop all its foliage and will look like a bunch of dead sticks. When this happens don't stress, it will re-bud, it's the Hibiscus protecting its root system. It's important to not overwater or underwater.
+water: Keep soil moist but well-drained.
+soil: Moist and well-drained soil.
+light: Not specified; generally full sun to partial shade.
+
+hellebore
+overall: Grow hellebores at the front of a border in sun, or full or partial shade, depending on the variety you choose. They do best in fertile, well-drained soil, but can also be raised in pots in a loam-based compost.
+water: Not specified; generally moderate watering.
+soil: Fertile, well-drained soil.
+light: Full or partial shade.
+
+hyacinth
+overall: Water your Hyacinth every two to three days. During the winter, you will probably water much less often. When the top inch of soil feels dry, it’s time to water. Avoid watering the crown or the leaves to prevent mold.
+water: Water every two to three days.
+soil: Not specified; generally well-draining soil.
+light: Not specified; generally full sun to partial shade.
+
+hydrangea
+overall: Hydrangeas do best in moist soil and can wilt in hot weather, so keep them well-watered during hot spells in summer. Mulch hydrangeas every year in spring with leaf mould, well-rotted manure, or compost. They don't need feeding, as this encourages leafy growth at the expense of flowers.
+water: Keep well-watered during hot spells in summer.
+soil: Moist soil.
+light: Not specified; generally partial shade to full sun.
+
+iris
+overall: Most irises do not like to be overly wet. Consistently water deeply, particularly during dry spells in summer. Irises do not require much fertilizer. A balanced 10-10-10 applied once in early spring before new growth emerges is enough.
+water: Consistently water deeply.
+soil: Not specified; generally well-draining soil.
+light: Not specified; generally full sun.
+
+jasmine
+overall: Provide plants with bright sunny days and cool, dark nights. Jasmine plants need adequate, indirect light during the day to develop flower buds, but also require the absence of artificial light at night. Jasmine also benefits from cool temperatures, between 50° and 60°F, and reduced watering during this rest period.
+water: Reduced watering during rest period.
+soil: Not specified; generally well-draining soil.
+light: Adequate, indirect light during the day.
+
+lavender
+overall: Lavender tends to be trouble-free if grown in the conditions it enjoys. A sun-drenched spot with free-draining soil is ideal. However, if grown in wet or heavy soil, lavender can suffer root rots, leading to its premature demise. To prevent this, grow in a raised bed or container if you have these conditions.
+water: Not specified; generally moderate water needs.
+soil: Free-draining soil.
+light: Sun-drenched spot.
+
+lobelia
+overall: Lobelia cardinalis is best grown in sun or partial shade. It needs very moist, fertile soil that doesn't dry out. Lobelia tupa is best grown in full sun in a sheltered spot and fertile, well-drained soil. It may need protection in hard winters.
+water: Not specified; generally moist soil.
+soil: Not specified; generally fertile, well-drained soil.
+light: Sun or partial shade.
+
+lilac
+overall: Lilacs grow best in full sun and slightly acidic to alkaline, well-drained soil. They may take three to four years to establish, but once they do, they can live for many years. You do not need to fertilize them often. Doing so may result in all foliage and no flowers.
+water: Not specified; generally moderate water needs.
+soil: Slightly acidic to alkaline, well-drained soil.
+light: Full sun.
+
+marigold
+overall: Marigolds are heat-loving plants that thrive in zones 2 to 11. They are easily grown in full sun (at least 6 hours of sunlight daily) in moderately fertile, dry to moist, well-drained soils. Some light afternoon shade prolongs their blooms in hot summer areas.
+water: Not specified; generally moderate water needs.
+soil: Moderately fertile, well-drained soil.
+light: Full sun.
+
+orchid
+overall: Keep your plant in a location that ranges between 65 and 80°F. Place your orchid in a bright location but avoid direct sunlight which may burn the leaves. Typically, southern or eastern facing windows are best. Use a water-soluble, balanced plant food designed for orchids.
+water: Not specified; generally moderate water needs.
+soil: Not applicable; typically grown in specialized orchid mix.
+light: Bright, indirect light.
+
+poinsettia
+overall: Avoid placing poinsettias where the temperature fluctuates or may be drying, such as near cold drafts, heat ducts, fireplaces, fans, space heaters, etc. Keep soil moist. Water plant when the soil surface feels dry to a light touch, or the pot feels lightweight when lifted. Never allow poinsettias to get so dry that they wilt.
+water: Keep soil moist.
+soil: Not specified; generally well-draining soil.
+light: Avoid direct sunlight.
+
+poppy
+overall: During the first year, they need some extra watering and fertilizing. This helps them to set down a strong root system and get established in their space. Once established, there is very little that needs to be done to maintain these plants.
+water: Not specified; generally moderate water needs.
+soil: Not specified; generally well-draining soil.
+light: Not specified; generally full sun.
+
+queen anne’s lace
+overall: No need to fertilize Queen Anne's lace as this plant thrives in nutrient-deficient soils. After the plant is established, water moderately as it prefers dry conditions.
+water: Moderate water needs.
+soil: Nutrient-deficient soils.
+light: Not specified; generally full sun.
+
+ranunculus
+overall: Ranunculus thrive in moderately moist, sandy, or loamy, well-drained soils. Good drainage is absolutely essential for success. They do not tolerate wet or soggy soil, which can lead to rotting.
+water: Not specified; generally moderate water needs.
+soil: Well-drained soils.
+light: Not specified; generally full sun to partial shade.
+
+red spider lilies
+overall: Spider lilies require regular watering when they are growing and flowering to ensure the soil stays moist. When they're dormant, you only need to water them enough to prevent the soil from drying out. The best time to remove the spent flowers (and encourage new growth) from your spider lily plants is right after they've bloomed.
+water: Regular watering when growing and flowering.
+soil: Not specified; generally moist soil.
+light: Not specified; generally full sun to partial shade.
+
+rhododendron
+overall: Once the plants are established, they do not require a lot of maintenance other than light pruning and the yearly application of two to three inches of organic mulch around the base of the plant to keep the soil moist and suppress weeds.
+water: Not specified; generally moderate water needs.
+soil: Not specified; generally well-draining soil.
+light: Not specified; generally partial shade to full sun.
+
+snapdragon
+overall: Snapdragons do best in rich, well-draining soil in a sunny location, though they will tolerate part shade. Pinching off the stem tips on young plants will make them thicker and bushier, and deadheading the spent flowers will extend the bloom season, often right into the first frost of the late fall or early winter.
+water: Not specified; generally moderate water needs.
+soil: Rich, well-draining soil.
+light: Sunny location.
+
+sunflower
+overall: Sunflowers are low-maintenance and drought-tolerant flowers that grow in most soil conditions. Provide flowers with plenty of daily sunlight, whether in a garden or containers, for at least six to eight hours
+water: Not specified; generally moderate water needs.
+soil: Most soil conditions.
+light: Full sun.
+
+violet
+overall: They're sensitive to chemicals in tap water and prefer water at room temperature, not chilled. You can also catch rainwater and use that to give your violets a drink. Violets love high humidity. Give it to them by placing the violets' pot in a saucer filled with pebbles and a bit of water.
+water: Not specified; generally moderate water needs.
+soil: Not specified; generally well-draining soil.
+light: Not specified; generally partial shade to full shade.
+
+white batflower
+overall: When bat flower is outdoors, it should be placed in shade. Indoors, it should be in bright, but not direct, light. Most gardeners have had better success with locations that have plenty of good air circulation. Keep the bat flower's soil consistently moist; a saucer beneath it will help ensure this.
+water: Keep soil consistently moist.
+soil: Not specified; generally well-draining soil.
+light: Bright, indirect light.
+
+zinnia
+overall: Zinnias are thirsty plants. Give them a good dousing at the roots once a week during dry periods. Pay particular attention to zinnias in pots and notice when the compost starts to dry out; this may be daily during hot weather. Feed zinnias through summer with a liquid feed, especially if they are in containers. Do this approximately 4-6 weeks after planting, which is about the time the fertilizer in the compost is depleted.
+water: Once a week during dry periods.
+soil: Moderately fertile, well-draining soil.
+light: Full sun.
+
+zamia pumila
+overall: Easily grown in dry, sandy or sandy loam, well-drained soils in full sun or part shade. Drought tolerant once established. Some tolerance to salty wind but not direct salt spray.
+water: Not specified; generally drought tolerant once established.
+soil: Dry, sandy or sandy loam, well-draining soils.
+light: Full sun to part shade.

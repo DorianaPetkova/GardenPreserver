@@ -17,10 +17,22 @@ def load_responses():
     with open(file_path, 'r') as file:
         content = file.read().strip()
         blocks = content.split('\n')
+        
+        current_plant = None
+        current_category = None
+        
         for block in blocks:
-            if ':' in block:
-                keyword, response = block.split(':', 1)
-                responses[keyword.lower().strip()] = response.strip()
+            block = block.strip()
+            if not block:
+                continue
+            if not ':' in block and block.isalpha():  # This is a plant name
+                current_plant = block.lower()
+                responses[current_plant] = {}
+            elif ':' in block:  # This is a category and its information
+                category, info = block.split(':', 1)
+                if current_plant:
+                    responses[current_plant][category.lower().strip()] = info.strip()
+    
     return responses
 
 def extract_relevant_info(text, question):
@@ -37,10 +49,28 @@ def extract_relevant_info(text, question):
     return '. '.join(relevant_sentences) + '.' if relevant_sentences else "I'm sorry, I don't have an answer for that question."
 
 def get_response(question, responses):
-    for keyword in responses:
-        if keyword in question.lower():
-            return extract_relevant_info(responses[keyword], question)
-    return "I'm sorry, I don't have an answer for that question."
+    words = question.lower().split()
+    plant_type = None
+    category = None
+    
+    for word in words:
+        if word in responses:
+            plant_type = word
+            break
+    
+    if not plant_type:
+        return "I'm sorry, I don't have an answer for that question."
+    
+    for word in words:
+        if word in responses[plant_type]:
+            category = word
+            break
+    
+    if not category:
+        category = 'overall'
+    
+    return extract_relevant_info(responses[plant_type][category], question)
+
 
 def get_flower_info(name):
     mydb = mysql.connector.connect(**db_config)
