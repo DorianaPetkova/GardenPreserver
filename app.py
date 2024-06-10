@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, current_app
 import os
 import mysql.connector
+from flower_ai import FlowerAI
 
 db_config = {
     'host': 'localhost',
@@ -11,66 +12,8 @@ db_config = {
 
 app = Flask(__name__)
 
-def load_responses():
-    responses = {}
-    file_path = os.path.join(current_app.root_path, 'static', 'responses.txt')
-    with open(file_path, 'r') as file:
-        content = file.read().strip()
-        blocks = content.split('\n')
-        
-        current_plant = None
-        current_category = None
-        
-        for block in blocks:
-            block = block.strip()
-            if not block:
-                continue
-            if not ':' in block and block.isalpha():  # This is a plant name
-                current_plant = block.lower()
-                responses[current_plant] = {}
-            elif ':' in block:  # This is a category and its information
-                category, info = block.split(':', 1)
-                if current_plant:
-                    responses[current_plant][category.lower().strip()] = info.strip()
-    
-    return responses
-
-def extract_relevant_info(text, question):
-    sentences = text.split('. ')
-    keywords = question.lower().split()
-    relevant_sentences = []
-    
-    for sentence in sentences:
-        for keyword in keywords:
-            if keyword in sentence.lower():
-                relevant_sentences.append(sentence)
-                break
-                
-    return '. '.join(relevant_sentences) + '.' if relevant_sentences else "I'm sorry, I don't have an answer for that question."
-
-def get_response(question, responses):
-    words = question.lower().split()
-    plant_type = None
-    category = None
-    
-    for word in words:
-        if word in responses:
-            plant_type = word
-            break
-    
-    if not plant_type:
-        return "I'm sorry, I don't have an answer for that question."
-    
-    for word in words:
-        if word in responses[plant_type]:
-            category = word
-            break
-    
-    if not category:
-        category = 'overall'
-    
-    return extract_relevant_info(responses[plant_type][category], question)
-
+def get_response(question, ai_model):
+    return ai_model.generate_response(question)
 
 def get_flower_info(name):
     mydb = mysql.connector.connect(**db_config)
@@ -96,15 +39,13 @@ def index():
             return render_template('result.html', show_popup=True, error_message="Flower not found.")
     return render_template('index.html')
 
-
-
 @app.route('/questions', methods=['GET', 'POST'])
 def questions():
+    ai_model = FlowerAI('static/responses.txt')  # Provide the path to your flower info file
     response = ""
-    responses = load_responses()
     if request.method == 'POST':
         user_question = request.form['question']
-        response = get_response(user_question, responses)
+        response = get_response(user_question, ai_model)
     return render_template('questions.html', response=response)
 
 if __name__ == '__main__':
