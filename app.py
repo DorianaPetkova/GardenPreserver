@@ -41,7 +41,7 @@ def index():
 
 @app.route('/questions', methods=['GET', 'POST'])
 def questions():
-    ai_model = FlowerAI('static/responses.txt')  # Provide the path to your flower info file
+    ai_model = FlowerAI('static/responses.txt')  
     response = ""
     if request.method == 'POST':
         user_question = request.form['question']
